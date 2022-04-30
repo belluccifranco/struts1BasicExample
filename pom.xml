@@ -12,6 +12,11 @@
    <name>Struts 1 Basic Example</name>
    <description>Struts 1 web app</description>
 
+   <properties>
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+   </properties>
+
    <dependencies>
       <dependency>
          <groupId>javax.servlet</groupId>
@@ -41,5 +46,4 @@
 	    </plugin>
 	</plugins>
    </build>
-
 </project>

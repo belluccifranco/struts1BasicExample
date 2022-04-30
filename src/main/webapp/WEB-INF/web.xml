@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-  <!DOCTYPE web-app PUBLIC
+<!DOCTYPE web-app PUBLIC
 	"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
 	"http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app>
-  <display-name>Struts Blank Application</display-name>
+  <display-name>Struts Basic Application</display-name>
   
   <!-- Standard Action Servlet Configuration -->
   <servlet>
@@ -18,17 +18,14 @@
     <load-on-startup>2</load-on-startup>
  </servlet>
 
-
   <!-- Standard Action Servlet Mapping -->
   <servlet-mapping>
     <servlet-name>action</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
 
-
   <!-- The Usual Welcome File List -->
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-
 </web-app>
